@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://luxass.dev",
+  "routes": [
+    "/",
+    "/projects"
+  ]
+}
