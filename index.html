@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Metadata Viewer</title>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <!-- Add your own Routes mapping here: -->
+    <!-- Note: The example is something i made to test this. You can use anything here. -->
+    <script id="metadata-reference" data-url="https://metadata-viewer-test.luxass.dev/"></script>
+
+    <script
+      src="./src/standalone.ts"
+      type="module"></script>
   </body>
 </html>
