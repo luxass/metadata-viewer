@@ -5,17 +5,22 @@
   "type": "module",
   "packageManager": "pnpm@9.2.0",
   "scripts": {
+    "build": "pnpm build:default && pnpm build:standalone && pnpm types:build && tsc-alias -p tsconfig.build.json",
+    "build:default": "vite build",
+    "build:standalone": "vite build -c vite.standalone.config.ts",
     "dev": "vite",
-    "build": "vite build",
+    "dev:standalone": "vite -c vite.standalone.config.ts",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:e2e": "playwright test",
-    "build-only": "vite build",
-    "typecheck": "vue-tsc --build --force"
+    "types:build": "vue-tsc -p tsconfig.build.json",
+    "types:check": "vue-tsc --noEmit --skipLibCheck --composite false"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.0.0-alpha.16",
+    "@unhead/vue": "^1.9.14",
     "tailwindcss": "4.0.0-alpha.16",
+    "unhead": "^1.9.14",
     "vue": "^3.4.29"
   },
   "devDependencies": {

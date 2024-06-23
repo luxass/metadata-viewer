@@ -1,0 +1,1 @@
+export { createMetadataViewer } from './esm'
