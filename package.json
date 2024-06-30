@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@9.2.0",
+  "packageManager": "pnpm@9.4.0",
   "scripts": {
     "build": "pnpm build:default && pnpm build:standalone && pnpm types:build && tsc-alias -p tsconfig.build.json",
     "build:default": "vite build",
