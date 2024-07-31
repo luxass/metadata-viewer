@@ -15,8 +15,8 @@ importers:
         specifier: ^1.9.14
         version: 1.9.14(vue@3.4.29(typescript@5.4.5))
       tailwindcss:
-        specifier: 4.0.0-alpha.16
-        version: 4.0.0-alpha.16
+        specifier: 4.0.0-alpha.18
+        version: 4.0.0-alpha.18
       unhead:
         specifier: ^1.9.14
         version: 1.9.14
@@ -1424,6 +1424,9 @@ packages:
 
   tailwindcss@4.0.0-alpha.16:
     resolution: {integrity: sha512-h6UIkQEpOJZy0N8tXeWgIhsEYPfUyqST9Oidr46+1W78p8S9hjJDfnW08/bKW17NA9/ro8sZvFHT98LtwwxtSQ==}
+
+  tailwindcss@4.0.0-alpha.18:
+    resolution: {integrity: sha512-wX9Kwo+Wi0l2RSzeUrQjLQJE/VFudncMeE0I6W4Zua0QoXQsdVnzQ4QZH8ntp9/17faqz0u/z4ZZ6CvCIvU1sw==}
 
   tinybench@2.8.0:
     resolution: {integrity: sha512-1/eK7zUnIklz4JUUlL+658n58XO2hHLQfSk1Zf2LKieUjxidN16eKFEoDEfjHc3ohofSSqK3X5yO6VGb6iW8Lw==}
@@ -2997,6 +3000,8 @@ snapshots:
   symbol-tree@3.2.4: {}
 
   tailwindcss@4.0.0-alpha.16: {}
+
+  tailwindcss@4.0.0-alpha.18: {}
 
   tinybench@2.8.0: {}
 

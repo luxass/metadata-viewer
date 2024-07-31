@@ -19,7 +19,7 @@
   "dependencies": {
     "@tailwindcss/vite": "4.0.0-alpha.16",
     "@unhead/vue": "^1.9.14",
-    "tailwindcss": "4.0.0-alpha.16",
+    "tailwindcss": "4.0.0-alpha.18",
     "unhead": "^1.9.14",
     "vue": "^3.4.29"
   },
